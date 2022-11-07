@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeaderText"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="150sp"
+
+        android:layout_height="wrap_content"
+        android:text="@string/variantText" />
+
+    <Button
+        android:id="@+id/mainDBButton"
+        android:layout_below="@id/mainHeaderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7sp"
+        android:text="@string/button_DB"/>
+
+    <Button
+        android:id="@+id/mainContactsButton"
+        android:layout_below="@id/mainDBButton"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_contacts"/>
+
+    <Button
+        android:id="@+id/mainGeoServiceButton"
+        android:layout_below="@id/mainContactsButton"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_geo"/>
+
+
+</RelativeLayout>

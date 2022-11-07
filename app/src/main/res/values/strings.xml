@@ -1,0 +1,29 @@
+<resources>
+    <string name="variantText">7 variant</string>
+    <string name="button_DB">DataBase</string>
+    <string name="button_contacts">Contacts</string>
+    <string name="button_geo">Geo service</string>
+    <string name="app_name">Wheet</string>
+
+    <string name="db_header_text">Database manager</string>
+    <string name="db_add_button">Add record</string>
+    <string name="db_elem_year_header_text">Year</string>
+    <string name="db_elem_weight_header_text">Weight</string>
+    <string name="db_elem_price_header_text">Price</string>
+    <string name="db_elem_dell_button">Dell</string>
+
+    <string name="db_add_menu_header_text">Adding record</string>
+    <string name="db_add_menu_year_text">Enter year</string>
+    <string name="db_add_menu_weight_text">Enter weight</string>
+    <string name="db_add_menu_save_button">Save record</string>
+    <string name="db_add_menu_return_button">Return</string>
+    <string name="db_best_record_header_text">Best records (>25m tons)</string>
+    <string name="db_header_line_avg">Avg price: </string>
+
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="contacts_table_name">All names:</string>
+    <string name="contacts_need_table_name">Need names:</string>
+
+    <string name="title_activity_Map">Geo service</string>
+
+</resources>
